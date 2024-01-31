@@ -1,0 +1,15 @@
+/Users/ismailmagdy/Desktop/Projects/QueryBuilder/C#/SQLQueryBuilder/bin/Debug/net6.0/SQLQueryBuilder
+/Users/ismailmagdy/Desktop/Projects/QueryBuilder/C#/SQLQueryBuilder/bin/Debug/net6.0/SQLQueryBuilder.deps.json
+/Users/ismailmagdy/Desktop/Projects/QueryBuilder/C#/SQLQueryBuilder/bin/Debug/net6.0/SQLQueryBuilder.runtimeconfig.json
+/Users/ismailmagdy/Desktop/Projects/QueryBuilder/C#/SQLQueryBuilder/bin/Debug/net6.0/SQLQueryBuilder.dll
+/Users/ismailmagdy/Desktop/Projects/QueryBuilder/C#/SQLQueryBuilder/bin/Debug/net6.0/ref/SQLQueryBuilder.dll
+/Users/ismailmagdy/Desktop/Projects/QueryBuilder/C#/SQLQueryBuilder/bin/Debug/net6.0/SQLQueryBuilder.pdb
+/Users/ismailmagdy/Desktop/Projects/QueryBuilder/C#/SQLQueryBuilder/obj/Debug/net6.0/SQLQueryBuilder.csproj.AssemblyReference.cache
+/Users/ismailmagdy/Desktop/Projects/QueryBuilder/C#/SQLQueryBuilder/obj/Debug/net6.0/SQLQueryBuilder.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ismailmagdy/Desktop/Projects/QueryBuilder/C#/SQLQueryBuilder/obj/Debug/net6.0/SQLQueryBuilder.AssemblyInfoInputs.cache
+/Users/ismailmagdy/Desktop/Projects/QueryBuilder/C#/SQLQueryBuilder/obj/Debug/net6.0/SQLQueryBuilder.AssemblyInfo.cs
+/Users/ismailmagdy/Desktop/Projects/QueryBuilder/C#/SQLQueryBuilder/obj/Debug/net6.0/SQLQueryBuilder.csproj.CoreCompileInputs.cache
+/Users/ismailmagdy/Desktop/Projects/QueryBuilder/C#/SQLQueryBuilder/obj/Debug/net6.0/SQLQueryBuilder.dll
+/Users/ismailmagdy/Desktop/Projects/QueryBuilder/C#/SQLQueryBuilder/obj/Debug/net6.0/ref/SQLQueryBuilder.dll
+/Users/ismailmagdy/Desktop/Projects/QueryBuilder/C#/SQLQueryBuilder/obj/Debug/net6.0/SQLQueryBuilder.pdb
+/Users/ismailmagdy/Desktop/Projects/QueryBuilder/C#/SQLQueryBuilder/obj/Debug/net6.0/SQLQueryBuilder.genruntimeconfig.cache
