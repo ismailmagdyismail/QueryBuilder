@@ -2,7 +2,7 @@ namespace SQLQueryBuilder;
 
 // todo add JOINS and Range queries and OR's
 // todo add Range queries
-// todo add OR's
+// todo add OR's , AND's
 public class SQLQueryBuilder
 {
     private List<string> selectedColumns;
@@ -123,10 +123,10 @@ public class SQLQueryBuilder
 public class FilterClause
 {
     private readonly string columnToBeFiltered;
-    private readonly string condition;
+    private readonly Condition condition;
     private readonly string valueToBeComparedAgainst;
 
-    public FilterClause(string columnToBeFiltered,string condition,string valueToBeComparedAgainst)
+    public FilterClause(string columnToBeFiltered,Condition condition,string valueToBeComparedAgainst)
     {
         this.columnToBeFiltered = columnToBeFiltered;
         this.condition = condition;
@@ -135,6 +135,34 @@ public class FilterClause
 
     internal string buildPredicate()
     {
-        return this.columnToBeFiltered + " " + this.condition +" "+ this.valueToBeComparedAgainst ;
+        return this.columnToBeFiltered + " " + ComparisonOperatorConvertor.ToString(condition) +" "+ this.valueToBeComparedAgainst ;
+    }
+}
+public enum Condition
+{
+    MORE_THAN,
+    MORE_THAN_OR_EQUAL,
+    LESS_THAN,
+    LESS_THAN_OR_EQUAL,
+    EQUAL,
+    NOT_EQUAL,
+    IS,
+}
+
+internal static class ComparisonOperatorConvertor
+{
+    internal static string ToString(Condition condition)
+    {
+        switch (condition)
+        {
+            case Condition.MORE_THAN: return ">";
+            case Condition.MORE_THAN_OR_EQUAL: return ">=";
+            case Condition.LESS_THAN: return "<";
+            case Condition.LESS_THAN_OR_EQUAL: return "<=";
+            case Condition.EQUAL: return "==";
+            case Condition.NOT_EQUAL: return "!=";
+            case Condition.IS: return "is";
+            default: throw new ArgumentOutOfRangeException(nameof(condition), condition, "Unsupported comparison operator");
+        }
     }
 }
